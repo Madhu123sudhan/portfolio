@@ -1,34 +1,3 @@
-// import HeroImg from "../assets/hero.png";
-// import { AiOutlineGithub,AiOutlineLinkedin} from "react-icons/ai";
-// import { EnvelopeIcon,PhoneIcon,MapPinIcon } from '@heroicons/react/24/solid'
-// import { TbBrandLeetcode } from "react-icons/tb";
-// export default function Hero() {
-//     return (
-//         <section className="flex flex-col md:flex-row px-5 py-20 pt-20 bg-secondary justify-center" id="hero">
-//             <div className="md:w-1/2 flex flex-col">
-//                 <h1 className="text-red-600 text-5xl font-hero-font"> Welcome To My Portfolio!</h1> 
-//                 <h2 className="px-8 py-2 mt-2 text-white text-4xl font-hero-font">I'm MadhuSudhan </h2>
-//                 <p className="px-2 py-1 text-2xl text-gray-500  hover:text-white transition-colors">A motivated computer science graduate with a<br/>         passion for web development and problem-solving.</p>
-//                 <div className="flex flex-col py-7">
-//                     <a href="#" className="flex items-center py-2  text-gray-500  hover:text-white transition-colors"><PhoneIcon className="h-5 mr-2"/>+91 63805 17874</a>
-//                     <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new" 
-//                     className="flex items-center py-2  text-gray-500 hover:text-white transition-colors"><EnvelopeIcon className="h-5 mr-2"/>madhusudhan93436@gmail.com</a>
-//                     <a href="#" className="flex items-center py-2  text-gray-500  hover:text-white transition-colors"><MapPinIcon className="h-5 mr-2"/>Chennai,TamilNadu,India</a>
-//                 </div>
-//                 <div className="flex py-5">
-//                     <a href="https://www.linkedin.com/in/madhusudhan30/" 
-//                     className="flex items-center pr-20  text-gray-500 hover:text-white transition-colors"><AiOutlineLinkedin  className="mr-2" size={30}/>Linkedin.com</a>
-//                     <a href="https://github.com/Madhu123sudhan" 
-//                     className="flex items-center pr-20 text-gray-500 hover:text-white transition-colors"><AiOutlineGithub className="mr-2" size={30}/>GitHub.com</a>
-//                     <a href="https://leetcode.com/u/MadhuSudhan2002/" 
-//                     className="flex items-center text-gray-500 hover:text-white transition-colors"><TbBrandLeetcode className="mr-2" size={30}/>LeetCode.com</a>
-//                 </div>
-//             </div> 
-//             <img className="md:w-1/3" src={HeroImg}/>
-//         </section>
-//     )
-// }
-
 import HeroImg from "../assets/hero.png";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from "@heroicons/react/24/solid";

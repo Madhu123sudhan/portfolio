@@ -1,24 +1,3 @@
-// import ResumeImg from "../assets/resume.jpg";
-
-// export default function Resume() {
-
-//     return (
-//         <section className="flex flex-col md:flex-row bg-primary px-5 py-12" id="resume">
-//             {/* Left Image Section */}
-//             <div className="md:w-1/2 py-5 flex justify-center md:justify-end">
-//                 <img src={ResumeImg} alt="Resume-img" className="w-[300px] rounded-lg shadow-lg" />
-//             </div>
-//             {/* Right Skills Section */}
-//             <div className="md:w-1/2 flex md:justify-center">
-//                <div className="flex flex-col justify-center text-white">
-//                     <h1 className="text-3xl border-b-4 border-red-700 mb-5 w-max font-bold">Resume</h1>
-//                     <p className="pb-5">You can view my resume <a className="btn" href="#">Download</a></p>
-//                </div>
-//             </div>
-//         </section>
-//     );
-// }
-
 import ResumeImg from "../assets/resume.jpg";
 
 export default function Resume() {
