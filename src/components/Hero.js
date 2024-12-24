@@ -34,7 +34,7 @@ export default function Hero() {
                 {/* Contact Information */}
                 <div className="flex flex-col gap-2 mb-6">
                     <a
-                        href="#"
+                        href="/learn-more"
                         className="flex items-center text-gray-500 hover:text-white transition-colors"
                     >
                         <PhoneIcon className="h-5 mr-2" />
@@ -50,7 +50,7 @@ export default function Hero() {
                         {config.contact.email}
                     </a>
                     <a
-                        href="#"
+                        href="/learn-more"
                         className="flex items-center text-gray-500 hover:text-white transition-colors"
                     >
                         <MapPinIcon className="h-5 mr-2" />

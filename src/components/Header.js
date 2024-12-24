@@ -4,7 +4,7 @@ export default function Header() {
     const [toggleMenu, setToggleMenu ] = useState(false);
     return (
     <header className="flex justify-between px-5 py-4 bg-primary border-b-2 border-gray-600">
-        <a href="#" className="text-white font-bold  hover:text-violet-400">MadhuSudhan</a>
+        <a href="/home" className="text-white font-bold  hover:text-violet-400">MadhuSudhan</a>
         <nav className="hidden md:block">
             <ul className="flex text-white">
                 <li><a href="/">Home</a></li>

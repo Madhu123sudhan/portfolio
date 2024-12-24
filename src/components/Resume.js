@@ -22,8 +22,11 @@ export default function Resume() {
                         You can view my resume by clicking the button below:
                     </p>
                     <a
-                        className="btn" target='_blank'
+                        className="btn" 
+                        target='_blank'
+                        rel="noopener noreferrer"
                         href={config.link}
+                        download
                     >
                         Download
                     </a>
