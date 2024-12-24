@@ -43,6 +43,7 @@ export default function Hero() {
                     <a
                         href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new"
                         target='_blank'
+                        rel="noopener noreferrer"
                         className="flex items-center text-gray-500 hover:text-white transition-colors"
                     >
                         <EnvelopeIcon className="h-5 mr-2" />
@@ -62,6 +63,7 @@ export default function Hero() {
                         href={config.social.linkedin}
                         className="text-gray-500 hover:text-white transition-colors"
                         target='_blank'
+                        rel="noopener noreferrer"
                     >
                         <AiOutlineLinkedin size={30} />
                     </a>
@@ -69,6 +71,7 @@ export default function Hero() {
                         href={config.social.GitHub}
                         className="text-gray-500 hover:text-white transition-colors"
                         target='_blank'
+                        rel="noopener noreferrer"
                     >
                         <AiOutlineGithub size={30} />
                     </a>
@@ -76,6 +79,7 @@ export default function Hero() {
                         href={config.social.LeetCode}
                         className="text-gray-500 hover:text-white transition-colors"
                         target='_blank'
+                        rel="noopener noreferrer"
                     >
                         <TbBrandLeetcode size={30} />
                     </a>
